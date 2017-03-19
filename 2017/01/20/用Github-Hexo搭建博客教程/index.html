@@ -1,0 +1,878 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="教程 博客," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="//head.png?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="一直拖着没写教程，室友也想建一个，那这次就把这个任务给补了吧。
+
+既然是教程，那就得接地气。所以我希望自己写的东西，只要是识字的人都能看得懂。
+那就开始动手吧!
+第一步，建立Github博客域名（建立域名就像给房子选个地址，弄个门牌号，告诉大家这里能找到你。）
+
+打开-&amp;gt;GitHub
+
+注册 
+
+依次输入username（用户名）、Email Address（邮箱）、Password（密码">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用Github+Hexo搭建个人站教程">
+<meta property="og:url" content="https://lisonzhao.github.io/2017/01/20/用Github-Hexo搭建博客教程/index.html">
+<meta property="og:site_name" content="Lison's Blog">
+<meta property="og:description" content="一直拖着没写教程，室友也想建一个，那这次就把这个任务给补了吧。
+
+既然是教程，那就得接地气。所以我希望自己写的东西，只要是识字的人都能看得懂。
+那就开始动手吧!
+第一步，建立Github博客域名（建立域名就像给房子选个地址，弄个门牌号，告诉大家这里能找到你。）
+
+打开-&amp;gt;GitHub
+
+注册 
+
+依次输入username（用户名）、Email Address（邮箱）、Password（密码">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/1.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/1_1.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/1_2.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/1_3.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/2.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/2_1.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/2_2.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/2_3.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/3.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/3_1.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/3_2.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/3.png">
+<meta property="og:image" content="https://lisonzhao.github.io/pic/2/4.png">
+<meta property="og:updated_time" content="2017-03-19T09:23:02.768Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="用Github+Hexo搭建个人站教程">
+<meta name="twitter:description" content="一直拖着没写教程，室友也想建一个，那这次就把这个任务给补了吧。
+
+既然是教程，那就得接地气。所以我希望自己写的东西，只要是识字的人都能看得懂。
+那就开始动手吧!
+第一步，建立Github博客域名（建立域名就像给房子选个地址，弄个门牌号，告诉大家这里能找到你。）
+
+打开-&amp;gt;GitHub
+
+注册 
+
+依次输入username（用户名）、Email Address（邮箱）、Password（密码">
+<meta name="twitter:image" content="https://lisonzhao.github.io/pic/2/1.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"always","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://lisonzhao.github.io/2017/01/20/用Github-Hexo搭建博客教程/"/>
+
+
+
+
+
+  <title> 用Github+Hexo搭建个人站教程 | Lison's Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?6f4e19e89dea14bb0009ebc2358c09ce";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Lison's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://lisonzhao.github.io/2017/01/20/用Github-Hexo搭建博客教程/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="赵俐晟">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/head.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Lison's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                用Github+Hexo搭建个人站教程
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-20T13:30:01+08:00">
+                2017-01-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/01/20/用Github-Hexo搭建博客教程/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/20/用Github-Hexo搭建博客教程/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <script src="/assets/js/APlayer.min.js"> </script><p>一直拖着没写教程，室友也想建一个，那这次就把这个任务给补了吧。</p>
+<hr>
+<p>既然是教程，那就得接地气。所以我希望自己写的东西，只要是识字的人都能看得懂。</p>
+<p><em>那就开始动手吧!</em></p>
+<h2 id="第一步，建立Github博客域名"><a href="#第一步，建立Github博客域名" class="headerlink" title="第一步，建立Github博客域名"></a>第一步，建立Github博客域名</h2><p><em>（建立域名就像给房子选个地址，弄个门牌号，告诉大家这里能找到你。）</em></p>
+<ol>
+<li><p>打开-&gt;<a href="https://github.com/" target="_blank" rel="external">GitHub</a><br><img src="/pic/2/1.png" alt="GitHub" title="GitHub注册页面"></p>
+</li>
+<li><p>注册 </p>
+<ul>
+<li>依次输入username（用户名）、Email Address（邮箱）、Password（密码）</li>
+<li>然后点击Create an account（创建账户）</li>
+<li>直接按Continue（我因为免费所以用GitHub的域名的）</li>
+<li>最后按skip this step（跳过吧，当然你也可以认真填一下）</li>
+<li>然后去你的邮箱验证一下账号。<br><br></li>
+</ul>
+</li>
+<li><p>回到GitHub，在最上面的导航栏找到“+”这个符号，然后点击New repository（新建一个仓库）<br><img src="/pic/2/1_1.png" alt="New repository" title="新建一个仓库"></p>
+</li>
+<li><p>写入仓库名（Repository name）</p>
+<ul>
+<li>Repository name需要是这样的： <blockquote>
+<p>你的用户名.github.io（例如我的用户名是<em>lisonzhao</em>，那么我的就是：<a href="https://lisonzhao.github.io">lisonzhao.github.io</a>，搞错就没有用的嗯）</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="/pic/2/1_2.png" alt="Repository name" title="写入仓库名"></p>
+<ol>
+<li>然后create reposity(其它的先不管，有必要的时候我相信你会去了解的)<br><img src="/pic/2/1_3.png" alt="create reposity" title="选址完成"></li>
+</ol>
+<p> <strong>到此为止，你的域名就选好了！</strong></p>
+<hr>
+<h2 id="第二步，搭好博客框架Hexo"><a href="#第二步，搭好博客框架Hexo" class="headerlink" title="第二步，搭好博客框架Hexo"></a>第二步，搭好博客框架Hexo</h2><p><em>（现在开始打地基造房子）</em></p>
+<ol>
+<li><p>打开-&gt; <a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">hexo官方中文文档</a><br><strong>官方文档写的很好，但是需要有耐心，按照他的步骤慢慢来。</strong><br><img src="/pic/2/2.png" alt="hexo官方中文文档" title="hexo官方中文文档"></p>
+</li>
+<li><p>先下载好<a href="https://nodejs.org/en/" target="_blank" rel="external">git</a>和<a href="https://git-scm.com" target="_blank" rel="external">Node.js</a></p>
+</li>
+<li><p>在任意位置单击右键，选择“Git Bash Here”（默认Windows情况）<br><img src="/pic/2/2_1.png" alt="打开Git bash" title="打开Git bash"></p>
+</li>
+<li><p>输入命令按回车键，安装hexo<br><code>$ npm install -g hexo-cli</code><br><img src="/pic/2/2_2.png" alt="显示bash" title="显示bash"></p>
+</li>
+<li><p>然后选择或创建一个文件夹（放个人站的内容，这里就是你的写作基地），然后在这个文件夹中任意位置右键打开“Git Bash Here”，输入命令后按回车键，初始化hexo。<br><code>hexo init</code></p>
+</li>
+<li><p>完成后，文件夹是这样一个情景<br><img src="/pic/2/2_3.png" alt="安装完成" title="hexo安装完成"></p>
+</li>
+</ol>
+<h2 id="第三步，配置hexo"><a href="#第三步，配置hexo" class="headerlink" title="第三步，配置hexo"></a>第三步，配置hexo</h2><ol>
+<li><p>打开_config.yml文件(建议使用下个sublime耍耍，用记事本打开也是没关系的)<br><img src="/pic/2/3.png" alt="打开_config.yml文件" title="hexo中的配置文件"></p>
+</li>
+<li><p>找到url和deploy标签：，填上这些内容(其它配置参照<a href="https://hexo.io/zh-cn/docs/configuration.html" target="_blank" rel="external">hexo官方文档</a>)<br><img src="/pic/2/3_1.png" alt="" title="配置github"><br><img src="/pic/2/3_2.png" alt="配置github" title="配置github"></p>
+</li>
+<li><p>保存后，右键打开Git bash,输入命令并回车<br><code>npm install hexo-deployer-git --save</code></p>
+<p><strong>到这里配置已经完成</strong></p>
+</li>
+<li><p>在文件夹中右键打开Git bash，输入命令并回车<br>（该指令以后会经常用到，作用是生成页面，可以简写为 <em>hexo g</em>）<br><code>hexo generate</code></p>
+</li>
+<li><p>输入指令<br>(同样很重要的指令，作用是将本地博客提交到Github，可能需要输入Github的密码，可以简写为 <em>hexo d</em>)<br><code>hexo deploy</code></p>
+</li>
+<li><p>在浏览器中输入<code>http://你的用户名.github.io/</code>（例如我的：<a href="https://lisonzhao.github.io">lisonzhao.github.io</a>），就能看到你的个人站诞生了！</p>
+</li>
+</ol>
+<h2 id="第四步，使用NexT主题美化"><a href="#第四步，使用NexT主题美化" class="headerlink" title="第四步，使用NexT主题美化"></a>第四步，使用NexT主题美化</h2><p><strong><em>（造好了房子，现在开始装潢</em>）</strong></p>
+<ul>
+<li><p>hexo可以用很多<a href="https://hexo.io/themes/" target="_blank" rel="external">主题</a>希望大家能选择一个自己喜欢的。我比较喜欢简单，所以选择NexT主题。</p>
+</li>
+<li><p>使用-&gt;<a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">NexT官方教程</a>根据你自己的偏好进行配置，请仔细阅读。<br><strong>尤其注意 <em>_config.yml</em> 配置文件,hexo和NexT中各有一个，要分清楚配置哪一个！</strong><br><img src="/pic/2/3.png" alt="hexo中的配置文件" title="hexo中的配置文件"></p>
+</li>
+</ul>
+<p><img src="/pic/2/4.png" alt="NexT中的配置文件" title="NexT中的配置文件"></p>
+<h2 id="第五步，开始写你的第1篇博文"><a href="#第五步，开始写你的第1篇博文" class="headerlink" title="第五步，开始写你的第1篇博文"></a>第五步，开始写你的第1篇博文</h2><p><em>（添置家具咯！）</em></p>
+<ol>
+<li><p>新建一个文章<br><code>$ hexo new  &quot;第1篇博文&quot;</code> </p>
+</li>
+<li><p>在source/_posts文件夹中找到“第1篇博文.md”<br>用记事本打开进行书写，推荐一个<a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="external">在线Markdown写作编辑平台</a>，写完后进行保存。</p>
+</li>
+<li><p>回到个人站文件夹,右键打开Git Bash, 执行三个命令（以后每一次更新或者提交文章都需要执行这三个指令。）<br><code>$ hexo clean</code><br><code>$ hexo g</code><br><code>$ hexo d</code></p>
+</li>
+</ol>
+<p>4.浏览器中输入<code>http://你的用户名.github.io/</code>，新的文章就会出现了</p>
+<hr>
+<p>写教程比自己折腾要累很多，差不多就这样了，若有其他问题，请直接联系我哦！送上一首我最爱的黄老板的歌。<br><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+		<script>
+			new APlayer({
+				element: document.getElementById("aplayer0"),
+				narrow: false,
+				autoplay: false,
+				showlrc: 0,
+				music: {
+					title: "Photograph",
+					author: "ED sheeran",
+					url: "/music/Photograph.mp3",
+					pic: "/music/photograph.jpg",
+				}
+			});
+		</script></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/wx.jpg" alt="赵俐晟 WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/zfb.jpg" alt="赵俐晟 Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/教程-博客/" rel="tag"># 教程 博客</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/01/03/Hello/" rel="next" title="第一篇博文">
+                <i class="fa fa-chevron-left"></i> 第一篇博文
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/01/20/用Github-Hexo搭建博客教程/"
+           data-title="用Github+Hexo搭建个人站教程" data-url="https://lisonzhao.github.io/2017/01/20/用Github-Hexo搭建博客教程/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/head.png"
+               alt="赵俐晟" />
+          <p class="site-author-name" itemprop="name">赵俐晟</p>
+           
+              <p class="site-description motion-element" itemprop="description">享受当下</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/LisonZhao" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/lisonzhao" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一步，建立Github博客域名"><span class="nav-number">1.</span> <span class="nav-text">第一步，建立Github博客域名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二步，搭好博客框架Hexo"><span class="nav-number">2.</span> <span class="nav-text">第二步，搭好博客框架Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第三步，配置hexo"><span class="nav-number">3.</span> <span class="nav-text">第三步，配置hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第四步，使用NexT主题美化"><span class="nav-number">4.</span> <span class="nav-text">第四步，使用NexT主题美化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第五步，开始写你的第1篇博文"><span class="nav-number">5.</span> <span class="nav-text">第五步，开始写你的第1篇博文</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">赵俐晟</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"lisonzhao"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+    
+    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+</body>
+</html>
